@@ -1,9 +1,10 @@
+const jwt = require("jsonwebtoken");
 const express = require("express");
 const bodyparser = require("body-parser");
 const credentials = require("../models/models");
 const User = require("../models/user");
 
-
+// ✅ Get registration data and store in DB
 const getData = async (req, res) => {
   try {
     const data = req.body;
@@ -25,6 +26,7 @@ const getData = async (req, res) => {
   }
 };
 
+// ✅ Check login and return JWT token
 const checkData = async (req, res) => {
   const { email, password } = req.body;
 
@@ -32,7 +34,18 @@ const checkData = async (req, res) => {
     const user = await credentials.findOne({ email, password });
     
     if (user) {
-      return res.status(200).json({ message: "Valid User", username: user.username });
+      // Generate JWT
+      const token = jwt.sign(
+        { username: user.username, email: user.email },
+        process.env.JWT_SECRET,
+        { expiresIn: '2h' }
+      );
+
+      return res.status(200).json({
+        message: "Valid User",
+        token,
+        username: user.username
+      });
     } else {
       return res.status(401).json({ message: "Invalid credentials" });
     }
@@ -42,6 +55,7 @@ const checkData = async (req, res) => {
   }
 };
 
+// ✅ Save additional user data after login
 const userData = async (req, res) => {
   const { username, data } = req.body;
   console.log("Received data:", { username, data });
@@ -63,6 +77,8 @@ const userData = async (req, res) => {
     res.status(500).json({ message: 'Error saving user data', error });
   }
 };
+
+// ✅ Fetch user data
 const getuserData = async (req, res) => {
   const { username } = req.params;
 
@@ -77,6 +93,7 @@ const getuserData = async (req, res) => {
     res.status(500).json({ message: 'Error retrieving user data', error });
   }
 };
+
 exports.getData = getData;
 exports.checkData = checkData;
 exports.getuserData = getuserData;

@@ -10,7 +10,7 @@
     position: fixed;  
     top: 0;        
     left: 0;        
-    height: 20%;  
+    height: 10%;  
     width: 100%;
     background-color: #0A1019;
     color: white;
@@ -24,7 +24,6 @@
 } 
 
 .homepage {
-    padding-top: 9.6%; 
     height: auto;
     width: 100%; 
     display: flex;
@@ -131,20 +130,20 @@
     display: block; 
 } 
 .p1 {
-    background-color:black ;
     display: flex;
     align-items: center;
-    justify-content: end;
-    background-image: url(../images/yoga_background1.jpg);
+    justify-content: flex-end;
+    background-image: url(../images/fitness_bg.jpg);
     background-repeat: no-repeat;
-    background-size: contain; 
-    background-position: end; 
-    opacity: 0.95;
-    height: 80vh; 
-    width: 100%; 
-} 
+    background-size: cover;        /* Better than contain for full coverage */
+    background-position: center right;
+    opacity: 0.95;                 /* Applies to whole container (might dim content too) */
+    height: 100vh;
+    width: 100%;
+}
+
 .diff{
-    font-family: "Londrina Solid", sans-serif;
+ /* font-family: "Londrina Solid", sans-serif; */
   font-weight: 700;
   font-style: normal;
 }
