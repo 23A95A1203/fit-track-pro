@@ -1,6 +1,6 @@
-import React from "react";
+
 import Style from './home.module.css';
-import Logo from "./Logo";
+import Logo from "./logo";
 import Toggle from "./toggle";
 import Services from "../servicespage/ServicesPage";
 import Contact from "../Contact/contact";
