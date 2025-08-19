@@ -61,9 +61,9 @@ fit-track-pro/
 
 ### 1️⃣ Clone the repository
 
-``bash
+bash
 git clone https://github.com/23A95A1203/fit-track-pro.git
-cd fit-track-pro ``
+cd fit-track-pro 
 
 
 ###2️⃣ Backend Setup
