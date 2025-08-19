@@ -16,11 +16,11 @@
 
 ---
 
-## 📽 Project Screenshots / 
+## 📽 Project Screenshots
 
 ### Dashboard
-
 ![Dashboard](frontend/public/dashboard.png)
+
 
 ---
 
@@ -55,35 +55,34 @@ fit-track-pro/
 ├─ .env # Environment variables
 └─ package.json # Backend dependencies
 
+
 ---
 
 ## 💻 Installation & Setup
 
 ### 1️⃣ Clone the repository
-
-bash
+```bash
 git clone https://github.com/23A95A1203/fit-track-pro.git
-cd fit-track-pro 
-
-
-###2️⃣ Backend Setup
+cd fit-track-pro
+2️⃣ Backend Setup
 cd backend
 npm install
 # Create .env file and add your environment variables
 npm start
-Backend runs at http://localhost:9000
-Frontend runs at http://localhost:5173 (Vite default)
-🔑 Environment Variables
 
-Create a .env file in the backend folder: /
-MONGODB_URI=<Your MongoDB Atlas URI> /
-PORT=9000 / 
-GMAIL_USER=<Your SMTP Email> / 
-GMAIL_PASS=<Your SMTP Password> /
-JWT_SECRET=<Your JWT Secret Key> / 
+Backend runs at: http://localhost:9000
+
+Frontend runs at: http://localhost:5173 (Vite default)
+
+3️⃣ Environment Variables
+
+Create a .env file in the backend folder:
+MONGODB_URI=<Your MongoDB Atlas URI>
+PORT=9000
+GMAIL_USER=<Your SMTP Email>
+GMAIL_PASS=<Your SMTP Password>
+JWT_SECRET=<Your JWT Secret Key>
 REACT_APP_API_URL=http://localhost:9000
-
-
 📝 What I Have Implemented
 
 JWT-based user authentication
@@ -125,10 +124,4 @@ Open a Pull Request
 📄 License
 
 This project is MIT Licensed.
-
-Fit Track Pro – A professional, clean, and interactive fitness tracking web application.
-
-
-
-
 
