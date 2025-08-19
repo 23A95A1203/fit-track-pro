@@ -12,17 +12,15 @@
 ## 🌟 Live Demo
 > The app is deployed on Render (replace this with your live URL once deployed)
 
-[**View Live App**](https://your-deployed-url.onrender.com)
+[**View Live App**](https://fit-track-pro.onrender.com)
 
 ---
 
-## 📽 Project Screenshots / GIFs
+## 📽 Project Screenshots
 
 ### Dashboard
-![Dashboard GIF](https://via.placeholder.com/800x400?text=Dashboard+GIF)
+![Dashboard](frontend/public/dashboard.png)
 
-### Contact Page
-![Contact Page GIF](https://via.placeholder.com/800x400?text=Contact+Page+GIF)
 
 ---
 
@@ -57,25 +55,26 @@ fit-track-pro/
 ├─ .env # Environment variables
 └─ package.json # Backend dependencies
 
+
 ---
 
 ## 💻 Installation & Setup
 
 ### 1️⃣ Clone the repository
-
-``bash
+```bash
 git clone https://github.com/23A95A1203/fit-track-pro.git
-cd fit-track-pro ``
-
-
-###2️⃣ Backend Setup
+cd fit-track-pro
+2️⃣ Backend Setup
 cd backend
 npm install
 # Create .env file and add your environment variables
 npm start
-Backend runs at http://localhost:9000
-Frontend runs at http://localhost:5173 (Vite default)
-🔑 Environment Variables
+
+Backend runs at: http://localhost:9000
+
+Frontend runs at: http://localhost:5173 (Vite default)
+
+3️⃣ Environment Variables
 
 Create a .env file in the backend folder:
 MONGODB_URI=<Your MongoDB Atlas URI>
@@ -84,8 +83,6 @@ GMAIL_USER=<Your SMTP Email>
 GMAIL_PASS=<Your SMTP Password>
 JWT_SECRET=<Your JWT Secret Key>
 REACT_APP_API_URL=http://localhost:9000
-
-
 📝 What I Have Implemented
 
 JWT-based user authentication
@@ -127,16 +124,4 @@ Open a Pull Request
 📄 License
 
 This project is MIT Licensed.
-
-Fit Track Pro – A professional, clean, and interactive fitness tracking web application.
-
-
----
-
-If you want, I can also **add a “Tech Stack badges + color gradient banner + social links” section** that makes your GitHub repo **look very attractive for recruiters**.  
-
-Do you want me to do that next?
-
-
-
 
