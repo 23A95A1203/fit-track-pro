@@ -12,17 +12,15 @@
 ## 🌟 Live Demo
 > The app is deployed on Render (replace this with your live URL once deployed)
 
-[**View Live App**](https://your-deployed-url.onrender.com)
+[**View Live App**](https://fit-track-pro.onrender.com)
 
 ---
 
-## 📽 Project Screenshots / GIFs
+## 📽 Project Screenshots / 
 
 ### Dashboard
-![Dashboard GIF](https://via.placeholder.com/800x400?text=Dashboard+GIF)
 
-### Contact Page
-![Contact Page GIF](https://via.placeholder.com/800x400?text=Contact+Page+GIF)
+![Dashboard](frontend/public/images/dashboard.png)
 
 ---
 
@@ -130,12 +128,6 @@ This project is MIT Licensed.
 
 Fit Track Pro – A professional, clean, and interactive fitness tracking web application.
 
-
----
-
-If you want, I can also **add a “Tech Stack badges + color gradient banner + social links” section** that makes your GitHub repo **look very attractive for recruiters**.  
-
-Do you want me to do that next?
 
 
 
