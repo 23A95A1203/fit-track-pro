@@ -1,8 +1,6 @@
 import React from "react";
 import Style from './home.module.css';
-import Header from "./header";
 import Logo from "./Logo";
-import Hello from "./sidebar";
 import Toggle from "./toggle";
 import Services from "../servicespage/ServicesPage";
 import Contact from "../Contact/contact";
@@ -14,7 +12,6 @@ export default function HomePage() {
             <div className={Style.homepage} id="home">  
                 <Toggle />
                 <Logo />
-                
             </div> 
             <div id="services">
               <Services/>
