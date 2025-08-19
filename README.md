@@ -75,12 +75,12 @@ Backend runs at http://localhost:9000
 Frontend runs at http://localhost:5173 (Vite default)
 🔑 Environment Variables
 
-Create a .env file in the backend folder:
-MONGODB_URI=<Your MongoDB Atlas URI>
-PORT=9000
-GMAIL_USER=<Your SMTP Email>
-GMAIL_PASS=<Your SMTP Password>
-JWT_SECRET=<Your JWT Secret Key>
+Create a .env file in the backend folder: /
+MONGODB_URI=<Your MongoDB Atlas URI> /
+PORT=9000 / 
+GMAIL_USER=<Your SMTP Email> / 
+GMAIL_PASS=<Your SMTP Password> /
+JWT_SECRET=<Your JWT Secret Key> / 
 REACT_APP_API_URL=http://localhost:9000
 
 
