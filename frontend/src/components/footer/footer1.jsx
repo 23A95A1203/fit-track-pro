@@ -1,4 +1,4 @@
-import React from "react";
+
 import footstyle from "./footer1.module.css";
 import { FaFacebook } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
@@ -32,7 +32,7 @@ function Footer1() {
                 <p onClick={() => scrollToSection("about-us")} style={{ cursor: 'pointer' }}  className={footstyle.p5}>About Us</p>
             </div>
             <div className={footstyle.copyright}>
-                <p className={footstyle.copyrightText}>copyrights @2024, Fit Track Pro</p>
+                <p className={footstyle.copyrightText}>copyrights @2025, Fit Track Pro</p>
             </div></div>
             <div className={footstyle.social}>
                     <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
