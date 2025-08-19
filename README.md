@@ -20,7 +20,7 @@
 
 ### Dashboard
 
-![Dashboard](frontend/public/images/dashboard.png)
+![Dashboard](frontend/public/dashboard.png)
 
 ---
 
